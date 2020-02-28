@@ -8,3 +8,15 @@ counter = countermax;
 
 hungry = 0;
 tired = 0;
+
+
+//Horizontal and Vertical speed
+hsp = 0;
+vsp = 0;
+
+//Normal walking speed
+walkSpeed = 5.5;
+
+carrying = 0;
+
+
