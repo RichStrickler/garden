@@ -31,6 +31,10 @@ else {
 	hungry = 0;
 	
 }
+if (hunger > 100){
+	
+	hunger = 100;
+}
 
 //energy
 if (energy < 30){
@@ -107,5 +111,19 @@ if (carrying = 1)
 	food.x = x + 1;
 	food.y = y + 65;
 	
+}
+
+//Allows you to eat the food to replenish hunger
+if (carrying = 1 and (keyboard_check_pressed(ord("R")) || (gamepad_button_check_pressed(0, gp_face2))))
+{
+	instance_destroy(foodObj);
+	hunger += 30;
+	carrying = 0;
+}
+
+//Reset the game
+if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start))
+{
+	game_restart();	
 }
 

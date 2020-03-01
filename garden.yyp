@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "3457e0d9-399e-4fba-a79f-1ccea27ba7e4",
+            "Value": {
+                "id": "f6e1ed99-c0c2-4b9b-beb5-f114fe862136",
+                "resourcePath": "objects\/controls\/controls.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b412470-5d87-4d6d-a1a7-206997fc66a8",
             "Value": {
                 "id": "4099d9ef-4a5a-4267-8a1a-2e843e7b04d0",
