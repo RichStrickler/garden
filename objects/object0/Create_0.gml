@@ -19,4 +19,7 @@ walkSpeed = 5.5;
 
 carrying = 0;
 
+//Set controller deadzone
+gamepad_set_axis_deadzone(0, 0.5);
+
 

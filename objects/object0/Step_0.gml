@@ -46,10 +46,11 @@ else {
 
 
 //Get player input
-key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
-key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);
-key_up = keyboard_check(ord("W")) || keyboard_check(vk_up);
-key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
+key_left = keyboard_check(ord("A")) || keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
+key_right = keyboard_check(ord("D")) || keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
+key_up = keyboard_check(ord("W")) || keyboard_check(vk_up) || (gamepad_axis_value(0, gp_axislv) < 0);
+key_down = keyboard_check(ord("S")) || keyboard_check(vk_down) || (gamepad_axis_value(0, gp_axislv) > 0);
+
 
 //Calculate Movement
 var move = key_right - key_left;
@@ -82,11 +83,11 @@ if (place_meeting(x, y + vsp, food) and !carrying)
 }
 y = y + vsp;
 
-if (place_meeting(x + 1, y + 1, food) and carrying != 1)
+if (place_meeting(x + 1, y + 1, food) and carrying != 1) || (place_meeting(x - 1, y -1, food) and carrying != 1)
 {
 	speed = 0;
 	
-	if (keyboard_check(ord("E")))
+	if (keyboard_check(ord("E")) || gamepad_button_check_pressed(0, gp_face1))
 	{
 		carrying = 1;	
 	}
@@ -96,7 +97,7 @@ if (place_meeting(x + 1, y + 1, food) and carrying != 1)
 	}
 }
 
-if (keyboard_check_pressed(ord("Q")))
+if (keyboard_check_pressed(ord("Q")) || gamepad_button_check_pressed(0, gp_face3))
 {
 	carrying = 0;
 }
