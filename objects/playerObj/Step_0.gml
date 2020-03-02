@@ -25,7 +25,7 @@ if (place_meeting(x + hsp, y, food))
 x = x + hsp;
 
 //Vertical Collision
-if (place_meeting(x, y + vsp, food) and !carrying)
+if (place_meeting(x, y + vsp, food) and !global.carrying)
 {
 	//sign returns a 1 or -1 depending if the variable given is positive or negative respectively
 	while(!place_meeting(x, y + sign(vsp), food))
@@ -36,26 +36,28 @@ if (place_meeting(x, y + vsp, food) and !carrying)
 }
 y = y + vsp;
 
-if (place_meeting(x + 1, y + 1, food) and carrying != 1) || (place_meeting(x - 1, y -1, food) and carrying != 1)
+//Allows the player to pick up the food
+if (place_meeting(x + 1, y + 1, food) and global.carrying != 1) || (place_meeting(x - 1, y -1, food) and global.carrying != 1)
 {
 	speed = 0;
 	
 	if (keyboard_check(ord("E")) || gamepad_button_check_pressed(0, gp_face1))
 	{
-		carrying = 1;	
+		global.carrying = 1;	
 	}
 	else
 	{
-		carrying = 0;
+		global.carrying = 0;
 	}
 }
 
+//Allows the character to drop the item
 if (keyboard_check_pressed(ord("Q")) || gamepad_button_check_pressed(0, gp_face3))
 {
-	carrying = 0;
+	global.carrying = 0;
 }
 	
-if (carrying = 1)
+if (global.carrying = 1)
 {
 	food.x = x + 1;
 	food.y = y + 65;
@@ -63,11 +65,11 @@ if (carrying = 1)
 }
 
 //Allows you to eat the food to replenish hunger
-if (carrying = 1 and (keyboard_check_pressed(ord("R")) || (gamepad_button_check_pressed(0, gp_face2))))
+if (global.carrying = 1 and (keyboard_check_pressed(ord("R")) || (gamepad_button_check_pressed(0, gp_face2))))
 {
 	instance_destroy(instance_nearest(x, y, foodObj));
 	hunger += 30;
-	carrying = 0;
+	global.carrying = 0;
 }
 
 //Reset the game
