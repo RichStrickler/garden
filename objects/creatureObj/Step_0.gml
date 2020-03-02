@@ -1,9 +1,32 @@
 //counter
 if (counter == 0){
-	if ((energy == 0) && (hunger == 0)){
+	if ((energy == 0) ){
 		
-		counter = countermax;
+		if (hunger == 0){
+			
+			counter = countermax;
+			
+		}
+		else {
+			
+			hunger = hunger - 5;
+			counter = countermax;
+			
+		}
 		
+	}
+	else if (hunger == 0){
+		if (energy == 0){
+			
+			counter = countermax;
+			
+		}
+		else {
+			
+		 energy = energy - 5;
+		 counter = countermax;
+			
+		}
 	}
 	else {
 		
