@@ -48,7 +48,7 @@ else {
 	
 }
 
-
+//Feeds the creature
 if (global.carrying = 1 and place_meeting(x, y, foodObj))
 {
 	hunger += 30;
