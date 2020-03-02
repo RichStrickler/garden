@@ -9,3 +9,14 @@ carrying = 0;
 
 //Set controller deadzone
 gamepad_set_axis_deadzone(0, 0.5);
+
+hungermax = 100;
+energymax = 100;
+countermax = 40;
+
+hunger = hungermax;
+energy = energymax;
+counter = countermax;
+
+hungry = 0;
+tired = 0;
