@@ -49,5 +49,11 @@ else {
 }
 
 
-
+if (global.carrying = 1 and place_meeting(x, y, foodObj))
+{
+	hunger += 30;
+	global.carrying = 0;
+	instance_destroy(instance_nearest(x, y, foodObj));
+}
+	
 
