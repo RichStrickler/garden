@@ -1,54 +1,3 @@
-//counter
-if (counter == 0){
-	if ((energy == 0) && (hunger == 0)){
-		
-		counter = countermax;
-		
-	}
-	else {
-		
-		energy = energy - 5;
-		hunger = hunger - 5;
-	
-		counter = countermax;
-		
-	}
-}
-else if (counter > 0 ){
-	
-	counter = counter - 1;
-	
-}
-
-//hunger
-if (hunger < 30){
-	
-	hungry = 1;
-	
-}
-else {
-	
-	hungry = 0;
-	
-}
-if (hunger > 100){
-	
-	hunger = 100;
-}
-
-//energy
-if (energy < 30){
-	
-	tired = 1;
-	
-}
-else {
-	
-	tired = 0;
-	
-}
-
-
 //Get player input
 key_left = keyboard_check(ord("A")) || keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
@@ -126,4 +75,3 @@ if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_star
 {
 	game_restart();	
 }
-
