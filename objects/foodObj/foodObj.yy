@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "foodObj",
     "eventList": [
-        
+        {
+            "id": "bd7f289d-79d1-44a8-9fee-5cfa1840150a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "099292ad-dce9-4b43-87d7-5d0f913b151a",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ce9d2e2c-76c6-436b-8bdb-e51717515acf"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "eddc5aa3-252d-4e4b-ae6c-6d54f9a15295",
     "visible": true
 }
