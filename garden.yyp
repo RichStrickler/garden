@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "3ac2f87c-51e6-42c4-99a5-bb9958f58862",
+            "Value": {
+                "id": "a2f626fe-de75-4601-b6d5-3af03d597ade",
+                "resourcePath": "scripts\/characterInteraction\/characterInteraction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b412470-5d87-4d6d-a1a7-206997fc66a8",
             "Value": {
                 "id": "4099d9ef-4a5a-4267-8a1a-2e843e7b04d0",
@@ -76,6 +84,14 @@
                 "id": "200e625a-c75d-4b20-9ede-0df551267229",
                 "resourcePath": "views\/506ea39b-a97d-4db5-b0f1-5948ea167b8d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61b69dcd-114a-4e60-a5ea-fb09c0d6cdd7",
+            "Value": {
+                "id": "7adb4d70-0884-4e7f-81cb-b7833a186767",
+                "resourcePath": "scripts\/characterMovement\/characterMovement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -154,7 +170,7 @@
             "Key": "bc733fef-adf2-4ea7-b5c6-10fe5694dc92",
             "Value": {
                 "id": "457918f6-b565-4d55-8ce0-799ed66f4a97",
-                "resourcePath": "sprites\\testSpriteWater\\testSpriteWater.yy",
+                "resourcePath": "sprites\/testSpriteWater\/testSpriteWater.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -202,7 +218,7 @@
             "Key": "d9e16f26-2b09-4d2b-8cb3-cba3db9db4c9",
             "Value": {
                 "id": "70aa4965-7853-424a-b264-a877552ce9e7",
-                "resourcePath": "sprites\\testSpriteGrass\\testSpriteGrass.yy",
+                "resourcePath": "sprites\/testSpriteGrass\/testSpriteGrass.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -280,7 +296,8 @@
         }
     ],
     "script_order": [
-        
+        "61b69dcd-114a-4e60-a5ea-fb09c0d6cdd7",
+        "3ac2f87c-51e6-42c4-99a5-bb9958f58862"
     ],
     "tutorial": ""
 }
