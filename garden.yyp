@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "7da9ad4c-d608-483f-ab2c-eaf14636ca85",
+            "Value": {
+                "id": "0a9a61e9-778e-4695-b4f2-78ad45aa4636",
+                "resourcePath": "sprites\\testSpriteGrassAndWatter\\testSpriteGrassAndWatter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "937d4c13-89a7-4721-a5fb-4ec30048e4eb",
             "Value": {
                 "id": "69251701-5b0d-45f7-b101-c7f1f1223590",
@@ -220,6 +228,14 @@
                 "id": "70aa4965-7853-424a-b264-a877552ce9e7",
                 "resourcePath": "sprites\/testSpriteGrass\/testSpriteGrass.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd378b98-04e9-4a20-97dc-fa681f780d65",
+            "Value": {
+                "id": "7cfbb53c-6f21-439c-a5a7-ab6aebb2c7df",
+                "resourcePath": "tilesets\\background\\background.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
