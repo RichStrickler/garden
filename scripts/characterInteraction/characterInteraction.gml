@@ -19,11 +19,31 @@ if (keyboard_check_pressed(ord("Q")) || gamepad_button_check_pressed(0, gp_face3
 {
 	global.carrying = 0;
 }
-	
+
+//Actually allows the food to move
 if (global.carrying = 1)
 {
-	foodObj.x = x + 1;
-	foodObj.y = y + 65;
+	instance_nearest(x, y, foodObj);
+	if (hsp > 0)
+	{
+		foodObj.x = x + 65;
+		foodObj.y = y;
+	}
+	else if (hsp < 0)
+	{
+		foodObj.x = x - 65;
+		foodObj.y = y;
+	}
+	else if (vsp > 0)
+	{
+		foodObj.x = x;
+		foodObj.y = y + 65;
+	}
+	else if (vsp < 0)
+	{
+		foodObj.x = x;
+		foodObj.y = y - 65;
+	}
 	
 }
 #endregion
