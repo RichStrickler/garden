@@ -1,3 +1,4 @@
+
 hungermax = 100;
 energymax = 100;
 countermax = 200;

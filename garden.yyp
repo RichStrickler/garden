@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "4979b121-ebc1-4c8f-96a9-ef89e7d62da9",
+            "Value": {
+                "id": "3a694c86-09bf-4b06-9869-1abf61c893d5",
+                "resourcePath": "paths\\path1\\path1.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "506ea39b-a97d-4db5-b0f1-5948ea167b8d",
             "Value": {
                 "id": "200e625a-c75d-4b20-9ede-0df551267229",
                 "resourcePath": "views\/506ea39b-a97d-4db5-b0f1-5948ea167b8d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5593ebf2-bb71-4c44-a4b2-ca91d5c52d5a",
+            "Value": {
+                "id": "978b4a0b-bebe-40fc-a9ea-93a4f13022f8",
+                "resourcePath": "scripts\\creatureMovement\\creatureMovement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "eab5a6b6-bafe-4f28-8035-6dcc3d33d854",
+            "Value": {
+                "id": "e6c42dec-5222-4eaa-833e-852f70dd96f1",
+                "resourcePath": "paths\\path0\\path0.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "ebc5bce5-4327-484b-a9f4-1c783b09543d",
             "Value": {
                 "id": "ded1eb66-effc-4e83-8c7e-5e2f5eeda6de",
@@ -313,7 +337,8 @@
     ],
     "script_order": [
         "61b69dcd-114a-4e60-a5ea-fb09c0d6cdd7",
-        "3ac2f87c-51e6-42c4-99a5-bb9958f58862"
+        "3ac2f87c-51e6-42c4-99a5-bb9958f58862",
+        "5593ebf2-bb71-4c44-a4b2-ca91d5c52d5a"
     ],
     "tutorial": ""
 }
