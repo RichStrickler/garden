@@ -1,7 +1,5 @@
 #region Character and food interaction
 //Allows the player to pick up the food
-global.debugInfo = false;
-global.helpInfo = false;
 if (place_meeting(x + 1, y + 1, foodObj) and global.carrying != 1) || (place_meeting(x - 1, y -1, foodObj) and global.carrying != 1)
 {
 	speed = 0;
