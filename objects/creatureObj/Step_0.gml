@@ -1,3 +1,6 @@
+creatureMovement();
+
+
 //counter
 if (counter == 0){
 	if ((energy == 0) ){

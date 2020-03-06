@@ -1,5 +1,5 @@
-script_execute(characterMovement);
-script_execute(characterInteraction);
+characterMovement();
+characterInteraction();
 
 #region Unused player eating mechanic
 //Allows you to eat the food to replenish hunger
