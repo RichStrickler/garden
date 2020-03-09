@@ -1,4 +1,3 @@
-creatureMovement();
 
 
 //counter
