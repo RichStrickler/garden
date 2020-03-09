@@ -1,3 +1,4 @@
+ creatureMovement();
 
 
 //counter

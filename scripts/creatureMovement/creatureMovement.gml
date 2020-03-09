@@ -4,9 +4,8 @@ pathOne = path0
 pathTwo = path1
 
 
-number = 3
-	
-path_start(pathOne,creatureSpeed,path_action_stop,0)
+number = 1;
+
 
 if (number == 1){
 
