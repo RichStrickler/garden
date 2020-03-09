@@ -1,4 +1,4 @@
-creatureMovement();
+ creatureMovement();
 
 //counter
 if (counter == 0){
