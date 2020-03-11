@@ -1,4 +1,5 @@
  creatureMovement();
+ creatureInteraction();
 
 //counter
 if (counter == 0){

@@ -6,7 +6,8 @@ if (place_meeting(x + 1, y + 1, foodObj) and global.carrying != 1) || (place_mee
 	
 	if (keyboard_check(ord("E")) || gamepad_button_check_pressed(0, gp_face1))
 	{
-		global.carrying = 1;	
+		global.carrying = 1;
+		creatureObj.eating = 0;
 	}
 	else
 	{

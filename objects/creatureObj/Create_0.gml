@@ -12,5 +12,6 @@ tired = 0;
 
 depth = 1;
 
-
+eating = 0;
+eatingCounter = 30;
 

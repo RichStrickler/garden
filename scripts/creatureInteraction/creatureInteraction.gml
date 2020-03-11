@@ -1,0 +1,23 @@
+
+if (eating == 1)
+{
+	path_speed = 0;
+	foodObj.x = creatureObj.x;
+	foodObj.y = creatureObj.y + 64;
+}
+else path_speed = creatureSpeed;
+
+
+if (eatingCounter > 0) and (eating == 1)
+	{
+		eatingCounter -= 1;
+		hunger += 1;
+		if (eatingCounter == 0) 
+		{
+			eating = 0;
+			eatingCounter = 30;
+			instance_destroy(foodObj);
+		}
+	}
+
+if (eatingCounter < 0) eatingCounter = 0;
