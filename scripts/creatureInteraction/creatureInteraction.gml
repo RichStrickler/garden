@@ -18,4 +18,4 @@ if (eatingCounter > 0) and (eating == 1)
             eatingCounter = 30;
             instance_destroy(foodObj);
         }
-    }
+   }
