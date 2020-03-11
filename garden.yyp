@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "5fa7dd7c-b724-4369-b959-0789090d3aa2",
-            "Value": {
-                "id": "9efc562d-77ca-4a1c-a33f-e865f71ddbe5",
-                "resourcePath": "scripts\/creatureInteraction\/creatureInteraction.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "61b69dcd-114a-4e60-a5ea-fb09c0d6cdd7",
             "Value": {
                 "id": "7adb4d70-0884-4e7f-81cb-b7833a186767",
@@ -370,8 +362,7 @@
     "script_order": [
         "61b69dcd-114a-4e60-a5ea-fb09c0d6cdd7",
         "3ac2f87c-51e6-42c4-99a5-bb9958f58862",
-        "5593ebf2-bb71-4c44-a4b2-ca91d5c52d5a",
-        "5fa7dd7c-b724-4369-b959-0789090d3aa2"
+        "5593ebf2-bb71-4c44-a4b2-ca91d5c52d5a"
     ],
     "tutorial": ""
 }
