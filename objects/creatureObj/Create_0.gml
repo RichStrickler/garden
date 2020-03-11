@@ -5,13 +5,17 @@
 hungermax = 100;
 energymax = 100;
 countermax = 200;
+counterCreatureMax = 60;
+creatureSpeed = 0;
 
 hunger = hungermax;
 energy = energymax;
 counter = countermax;
+counterCreature = counterCreatureMax;
 
 hungry = 0;
 tired = 0;
+sleeping = 0;
 
 depth = 1;
 
