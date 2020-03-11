@@ -22,3 +22,5 @@ hungry = 0;
 tired = 0;
 
 depth = -1;
+
+tilemap = layer_tilemap_get_id("Collision");
