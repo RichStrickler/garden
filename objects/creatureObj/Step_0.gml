@@ -1,4 +1,8 @@
+
+creatureInteraction();
+
 //creatureMovement();
+
 
 
 //counter
