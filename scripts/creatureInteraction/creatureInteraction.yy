@@ -1,5 +1,5 @@
 {
-    "id": "a7741aae-1f66-4cc2-83f0-2105eeeb6b7a",
+    "id": "9224697a-596a-40ea-aab8-aea6eea62da8",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "creatureInteraction",
