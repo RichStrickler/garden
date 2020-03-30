@@ -267,6 +267,15 @@ else if (direction >= 270 and direction < 360) and happiness  < -500
 	sprite_index = sEvilFront;
 }
 
+if (keyboard_check_pressed(vk_add) || gamepad_button_check_pressed(0, gp_padu))
+{
+	creatureObj.happiness = 1000;
+}
+if (keyboard_check_pressed(vk_subtract) || gamepad_button_check_pressed(0, gp_padd))
+{
+	creatureObj.happiness = -1000;
+}
+
 
 
 
