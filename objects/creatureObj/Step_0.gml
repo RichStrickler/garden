@@ -14,6 +14,19 @@ else if (hungerCounter != 0 ){
 	hungerCounter = hungerCounter - 1;
 	
 }
+
+//happiness 
+if (happinessCounter == 0){
+	
+	happiness = happiness - 5;
+	happinessCounter = happinessCounterMax;
+	
+}
+else if (happinessCounter != 0 ){
+	
+	happinessCounter = happinessCounter - 1;
+	
+}
 //sleeping
 if (sleeping == 0){
 	if (energyCounter == 0){
@@ -101,6 +114,30 @@ if (energy < 0){
 
 }
 
+//sadness
+
+if (happiness < 30){
+	
+	sad = 1;
+
+	
+}
+else {
+
+	sad = 0;
+	
+}
+if (happiness > 100){
+	
+	happiness = 100;
+	
+}
+
+if (happiness < 0){
+
+	happiness = 0;
+
+}
 
 
 //creature brain
