@@ -5,13 +5,23 @@
     "name": "controls",
     "eventList": [
         {
-            "id": "9d30e5b6-7c27-45a7-9ab9-ed04952013f0",
+            "id": "7c322e8a-3580-4e43-ac94-3af3d7b8e130",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "3457e0d9-399e-4fba-a79f-1ccea27ba7e4"
+        },
+        {
+            "id": "2ca66e37-8deb-44f9-bb79-3c684bf02b0d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
+            "eventtype": 3,
             "m_owner": "3457e0d9-399e-4fba-a79f-1ccea27ba7e4"
         }
     ],

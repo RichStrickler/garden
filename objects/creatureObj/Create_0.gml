@@ -3,17 +3,20 @@
 
 eatingCounter = 30;
 hungermax = 100;
-happinessmax = 100;
+baseHappiness = 0;
+happinessmax = 1000;
+happinessmin = -1000;
 energymax = 100;
+
 hungerCounterMax = 200;
-happinessCounterMax = 200;
+happinessCounterMax = 50;
 energyCounterMax = 200;
 counterCreatureMax = 60;
 creatureSpeed = 0;
 
 hunger = hungermax;
 energy = energymax;
-happiness = happinessmax
+happiness = baseHappiness;
 hungerCounter = hungerCounterMax;
 happinessCounter = happinessCounterMax
 energyCounter = energyCounterMax;
@@ -24,9 +27,11 @@ hungry = 0;
 tired = 0;
 sleeping = 0;
 eating = 0;
-sad = 0;
+unhappy = 0;
+happy = 0;
 
 depth = 1;
 
-
+eating = 0;
+eatingCounter = 30;
 

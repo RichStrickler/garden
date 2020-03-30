@@ -2,7 +2,7 @@ if (eating == 1)
 {
     path_speed = 0;
     foodObj.x = creatureObj.x;
-    foodObj.y = creatureObj.y + 64;
+    foodObj.y = creatureObj.y + 10;
 }
 else if (eating == 0){
 	path_speed = 3;

@@ -5,15 +5,19 @@ pathTwo = path1
 
 
 
+if (number == 1) and (eating != 1) {
+
+
 
 if (counterCreature == 0){
+
 	
 	if (path_index = -1){
 		
 		if (sleeping == 0){
 			
 
-			number = random_range(1,2)
+			number = 1;
 
 			if (number == 1){
 				
@@ -56,10 +60,14 @@ if (counterCreature == 0){
 	}
 	
 }
+
+
 else if (counterCreature != 0){
 	
 	counterCreature = counterCreature - 1;
+
 	
+}
 }
 
 

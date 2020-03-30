@@ -16,17 +16,23 @@ else if (hungerCounter != 0 ){
 }
 
 //happiness 
-if (happinessCounter == 0){
-	
-	happiness = happiness - 5;
-	happinessCounter = happinessCounterMax;
-	
+if (happinessCounter = 0){
+	if ((hunger >= 75)&&(energy >=75)){
+		happiness = happiness + 1;
+		happinessCounter = happinessCounterMax;
+	}
+	else if ((hunger <= 25)&&(energy <=25)){
+		happiness = happiness - 1;
+		happinessCounter = happinessCounterMax;
+	}
+	else {
+		happinessCounter = happinessCounterMax;
+	}
 }
-else if (happinessCounter != 0 ){
-	
+else if (happinessCounter != 0){
 	happinessCounter = happinessCounter - 1;
-	
 }
+
 //sleeping
 if (sleeping == 0){
 	if (energyCounter == 0){
@@ -45,6 +51,8 @@ if (sleeping == 0){
 	}
 }
 else if (sleeping == 1){
+	image_speed = 2;
+	sprite_index = sNeutralSleep;
 	if (energyCounter == 0){
 		if (energy == energymax){
 		
@@ -114,39 +122,36 @@ if (energy < 0){
 
 }
 
-//sadness
+//happy/unhappy
 
-if (happiness < 30){
+if (happiness >= 500){
 	
-	sad = 1;
+	happy = 1;
 
-	
-}
-else {
-
-	sad = 0;
 	
 }
-if (happiness > 100){
+else if (happiness <= -500) {
+
+	unhappy = 0;
 	
-	happiness = 100;
+}
+if (happiness > happinessmax){
+	
+	happiness = 1000;
 	
 }
 
-if (happiness < 0){
+if (happiness < happinessmin){
 
-	happiness = 0;
+	happiness = -1000;
 
 }
 
 
 //creature brain
 
-
-
 pathOne = path0
 pathTwo = path1
-
 
 
 
