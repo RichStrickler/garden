@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "a0ec088b-5820-4eec-b46c-d7d62784a873",
+            "Value": {
+                "id": "df108d92-3058-49d1-ab01-dbd2095f91b3",
+                "resourcePath": "objects\\creatureObj\\creatureObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a2828fce-5239-4ff5-98c1-b4d55195158f",
             "Value": {
                 "id": "2473160f-96dc-4345-bd2e-22ad3537ca51",
