@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "099292ad-dce9-4b43-87d7-5d0f913b151a",
-            "Value": {
-                "id": "1b062ecc-0ae4-4df5-9933-9dbf91b6ac61",
-                "resourcePath": "objects\/creatureObj\/creatureObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "09ecb0a1-777b-4afb-85f9-1818179d5bd7",
             "Value": {
                 "id": "01102916-a3c8-4fb7-bc0d-e6acd4e7cda5",
@@ -252,6 +244,14 @@
                 "id": "0a9a61e9-778e-4695-b4f2-78ad45aa4636",
                 "resourcePath": "sprites\/testSpriteGrassAndWatter\/testSpriteGrassAndWatter.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7daeeb2b-b8ca-42bf-958a-d93a2bdef2a5",
+            "Value": {
+                "id": "74a52a4f-fe00-4d18-a5f6-d3d2e9d8b503",
+                "resourcePath": "sounds\/bgMusic\/bgMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {

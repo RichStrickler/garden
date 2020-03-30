@@ -208,6 +208,27 @@ else if (counterCreature != 0){
 }
 
 
+if (direction >= 0) and (direction < 90) and (path_speed > 0)
+{
+	image_speed = 1;
+	sprite_index = sNeutralRight;
+}
+else if (direction >= 90) and (direction < 180) and (path_speed > 0)
+{
+	image_speed = 1;
+	sprite_index = sNeutralBack;
+}
+else if (direction >= 180) and (direction < 270) and (path_speed > 0)
+{
+	image_speed = 1;
+	sprite_index = sNeutralLeft;
+}
+else if (direction >= 270) and (direction < 360) and (path_speed > 0)
+{
+	image_speed = 1;
+	sprite_index = sNeutralRight;
+}
+else sprite_index = sNeutralIdle;
 
 
 
