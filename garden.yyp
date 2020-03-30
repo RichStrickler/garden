@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1b7ff1ce-2022-4df8-b56a-4bd81c5a61cc",
+            "Value": {
+                "id": "f2684607-c1d9-4b4b-bc6b-281f5b0e7bd0",
+                "resourcePath": "views\/1b7ff1ce-2022-4df8-b56a-4bd81c5a61cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2ab08805-0c01-4a74-882d-cc53fab0a680",
             "Value": {
                 "id": "a6aafbd9-9245-4a28-aa55-a446b8dae296",
@@ -154,7 +162,7 @@
             "Key": "9224697a-596a-40ea-aab8-aea6eea62da8",
             "Value": {
                 "id": "cca6f8e1-5b84-4ad2-a6e1-76618d9affd1",
-                "resourcePath": "scripts\\creatureInteraction\\creatureInteraction.yy",
+                "resourcePath": "scripts\/creatureInteraction\/creatureInteraction.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -299,6 +307,14 @@
             "Value": {
                 "id": "868e4f57-c30c-4f2c-8668-71c901a5be13",
                 "resourcePath": "sprites\/tilesetSpr\/tilesetSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e52d2e45-9eba-46bb-821b-5f86239338b9",
+            "Value": {
+                "id": "aeca42d7-1fc9-4c8e-ab07-fe08d8617232",
+                "resourcePath": "sprites\/sSleep\/sSleep.yy",
                 "resourceType": "GMSprite"
             }
         },
