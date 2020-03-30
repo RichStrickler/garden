@@ -207,6 +207,66 @@ else if (counterCreature != 0){
 	
 }
 
+//Neutral Fluffle
+if (direction >= 0 and direction < 90) and happiness < 500 and happiness > -500
+{
+	sprite_index = sNeutralRight;
+}
+else if (direction >= 90 and direction < 180) and happiness < 500 and happiness > -500
+{
+	sprite_index = sNeutralBack;
+}
+
+else if (direction >= 180 and direction < 270) and happiness < 500 and happiness > -500
+{
+	sprite_index = sNeutralLeft;
+}
+
+else if (direction >= 270 and direction < 360) and happiness < 500 and happiness > -500
+{
+	sprite_index = sNeutralFront;
+}
+
+//Good Fluffle
+else if (direction >= 0 and direction < 90) and happiness > 500
+{
+	sprite_index = sGoodRight;
+}
+else if (direction >= 90 and direction < 180) and happiness > 500
+{
+	sprite_index = sGoodBack;
+}
+
+else if (direction >= 180 and direction < 270) and happiness > 500
+{
+	sprite_index = sGoodLeft;
+}
+
+else if (direction >= 270 and direction < 360) and happiness > 500
+{
+	sprite_index = sGoodFront;
+}
+
+//Evil Fluffle
+else if (direction >= 0 and direction < 90) and happiness < -500
+{
+	sprite_index = sEvilRight;
+}
+else if (direction >= 90 and direction < 180) and happiness  < -500
+{
+	sprite_index = sEvilBack;
+}
+
+else if (direction >= 180 and direction < 270) and happiness  < -500
+{
+	sprite_index = sEvilLeft;
+}
+
+else if (direction >= 270 and direction < 360) and happiness  < -500
+{
+	sprite_index = sEvilFront;
+}
+
 
 
 
