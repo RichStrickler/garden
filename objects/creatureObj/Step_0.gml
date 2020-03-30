@@ -32,6 +32,8 @@ if (sleeping == 0){
 	}
 }
 else if (sleeping == 1){
+	image_speed = 2;
+	sprite_index = sNeutralSleep;
 	if (energyCounter == 0){
 		if (energy == energymax){
 		

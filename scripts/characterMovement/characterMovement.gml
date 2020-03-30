@@ -14,3 +14,30 @@ vsp = vmove * walkSpeed;
 x = x + hsp;
 y = y + vsp;
 #endregion
+
+#region Determine what sprite to display
+
+if (hsp > 0)
+{
+	image_speed = 2;
+	sprite_index = sPlayerRight;
+}
+else if (hsp < 0)
+{
+	image_speed = 2;
+	sprite_index = sPlayerLeft;
+}
+else if (vsp < 0)
+{
+	image_speed = 2;
+	sprite_index = sPlayerBack;
+}
+else if (vsp > 0)
+{
+	image_speed = 2;
+	sprite_index = sPlayerFront;
+}
+
+else {sprite_index = sPlayerIdle};
+
+#endregion
