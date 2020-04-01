@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "b5e18c3d-1676-47a6-afa9-83917a141a08",
+            "Value": {
+                "id": "59863b49-8f25-4afe-85e3-a5ce60d574a2",
+                "resourcePath": "sounds\/eatingSound\/eatingSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b644e71d-b9b9-4384-bf4d-ef7cd34a3a0c",
             "Value": {
                 "id": "7bf6e2ee-e967-4c5c-a413-150c390290cd",
