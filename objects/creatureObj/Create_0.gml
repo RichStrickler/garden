@@ -13,6 +13,7 @@ happinessCounterMax = 50;
 energyCounterMax = 200;
 counterCreatureMax = 60;
 creatureSpeed = 0;
+number = 1
 
 hunger = hungermax;
 energy = energymax;

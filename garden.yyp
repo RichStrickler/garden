@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "f349ae7f-fa6f-40bd-a655-e83550fa0099",
+            "Value": {
+                "id": "681ee038-0ab4-4aa6-85eb-46d2067110bc",
+                "resourcePath": "paths\\path2\\path2.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "f38bf986-0e13-4366-b781-ff49aa1a0f9a",
             "Value": {
                 "id": "effb8c0a-03ff-4951-a2e4-06177ea9661a",

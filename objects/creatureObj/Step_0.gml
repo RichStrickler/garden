@@ -152,6 +152,7 @@ if (happiness < happinessmin){
 
 pathOne = path0
 pathTwo = path1
+pathThree = path2
 
 
 
@@ -162,7 +163,7 @@ if (counterCreature == 0){
 			if (path_index == -1){
 			
 				if (tired == 0){
-					number = 1
+					
 
 					if (number == 1){
 				
@@ -170,6 +171,7 @@ if (counterCreature == 0){
 						path_start(pathOne,creatureSpeed,path_action_stop,0)
 						creatureSpeed = 0;
 						counterCreature = counterCreatureMax;
+						number = 2
 				
 					}
 					else if (number == 2) {
@@ -178,6 +180,20 @@ if (counterCreature == 0){
 						path_start(pathTwo,creatureSpeed,path_action_stop,0)
 						creatureSpeed = 0;
 						counterCreature = counterCreatureMax;
+						number = 3
+
+					}
+					else if (number == 3){
+						counterCreature = counterCreatureMax;
+						number = 4
+					}
+					else if (number == 4) {
+				
+						creatureSpeed = 3;
+						path_start(pathThree,creatureSpeed,path_action_stop,0)
+						creatureSpeed = 0;
+						counterCreature = counterCreatureMax;
+						number = 1
 
 					}
 				}
