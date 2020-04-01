@@ -32,7 +32,5 @@ unhappy = 0;
 happy = 0;
 
 depth = 1;
-
-eating = 0;
 eatingCounter = 30;
 

@@ -51,7 +51,7 @@ if (playerObj.carrying = 1)
 }
 #endregion
 
-if (gamepad_button_check_pressed(0, gp_face1))
+if (gamepad_button_check_pressed(0, gp_face1) and place_meeting(x, y, creatureObj))
 {
 	creatureObj.path_speed = 0;
 	creatureObj.sleeping = 1;
