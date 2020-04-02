@@ -97,6 +97,10 @@ if (hunger < 0){
 
 }
 
+//hungersound
+if (hunger < 30) and !audio_is_playing(hungerSound)  {
+	audio_play_sound(hungerSound, 1, false)	
+}
 
 //energy
 if (energy < 30){
@@ -147,6 +151,10 @@ if (happiness < happinessmin){
 
 }
 
+//happysound
+if (happiness >= 500) and !audio_is_playing(happySound)  {
+	audio_play_sound(happySound, 1, false)	
+}
 
 //creature brain
 
@@ -221,6 +229,11 @@ else if (counterCreature != 0){
 	
 	counterCreature = counterCreature - 1;
 	
+}
+
+//Sleeping sound
+if (sleeping == 1) and !audio_is_playing(sleepingSound)  {
+	audio_play_sound(sleepingSound, 1, false)	
 }
 
 //Neutral Fluffle

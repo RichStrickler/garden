@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "501defc7-08b4-4615-85ff-1e69ff64f569",
+            "Value": {
+                "id": "dd8d1e6d-825e-44a1-9ce6-5f02cbec7d41",
+                "resourcePath": "sounds\\sleepingSound\\sleepingSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "506ea39b-a97d-4db5-b0f1-5948ea167b8d",
             "Value": {
                 "id": "200e625a-c75d-4b20-9ede-0df551267229",
@@ -231,11 +239,27 @@
             }
         },
         {
+            "Key": "67acfd5c-68ed-4f75-ad78-8d5201bffbf2",
+            "Value": {
+                "id": "72b2422f-59ce-467c-a8eb-6d79581b3366",
+                "resourcePath": "sounds\\collisionSound\\collisionSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6b021ed2-5205-45a1-a03f-0103fb3586e3",
             "Value": {
                 "id": "315fe6ea-be29-43d5-b229-0f142dfb9d93",
                 "resourcePath": "sprites\/sNeutralIdle\/sNeutralIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7121ca0a-0e5d-49a3-963c-54cc3caeea8c",
+            "Value": {
+                "id": "a3f16e34-7918-4c19-a60b-32a978646849",
+                "resourcePath": "sounds\\hungerSound\\hungerSound.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -412,6 +436,14 @@
                 "id": "7bf6e2ee-e967-4c5c-a413-150c390290cd",
                 "resourcePath": "views\/b644e71d-b9b9-4384-bf4d-ef7cd34a3a0c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9c008c9-d31a-4313-9786-9aacf4a176af",
+            "Value": {
+                "id": "91d97b07-9603-4477-8b3f-02841fcc1aef",
+                "resourcePath": "sounds\\happySound\\happySound.yy",
+                "resourceType": "GMSound"
             }
         },
         {

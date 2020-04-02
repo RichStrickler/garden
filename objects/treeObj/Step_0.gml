@@ -9,6 +9,7 @@ if (counter <= 0)
 	counter = 300;
 }
 
-if (counter <= 1) and !audio_is_playing(foodRespone) {
-	audio_play_sound(foodRespone, 1, false)	
+if (counter <= 1) and (!instance_exists(foodObj)) and !audio_is_playing(foodRespone)  {
+	audio_play_sound(foodRespone, 0, false)	
 }
+

@@ -1,3 +1,4 @@
+//Player Walk Sound
 if vsp != 0 and !audio_is_playing(walkingSound) {
 	audio_play_sound(walkingSound, 1, false)	
 }
@@ -6,6 +7,13 @@ if hsp != 0 and !audio_is_playing(walkingSound) {
 	audio_play_sound(walkingSound, 1, false)	
 }
 
+//Collision Sound
+if collision_circle(x, y, 24, treeObj, false, true) and !audio_is_playing(collisionSound) {
+	audio_play_sound(collisionSound, 1, false)	
+}
+if collision_circle(x, y, 24, creatureObj, false, true) and !audio_is_playing(collisionSound) {
+	audio_play_sound(collisionSound, 1, false)	
+}
 
 characterMovement();
 characterInteraction();
