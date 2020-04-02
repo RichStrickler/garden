@@ -152,7 +152,7 @@ if (happiness < happinessmin){
 }
 
 //happysound
-if (happiness >= 500) and !audio_is_playing(happySound)  {
+if (happiness == 500) and !audio_is_playing(happySound)  {
 	audio_play_sound(happySound, 1, false)	
 }
 
@@ -298,11 +298,11 @@ else if (direction >= 270 and direction < 360) and happiness  < -500
 
 if (keyboard_check_pressed(vk_add) || gamepad_button_check_pressed(0, gp_padu))
 {
-	creatureObj.happiness = 1000;
+	creatureObj.happiness += 250;
 }
 if (keyboard_check_pressed(vk_subtract) || gamepad_button_check_pressed(0, gp_padd))
 {
-	creatureObj.happiness = -1000;
+	creatureObj.happiness -= 250;
 }
 
 
