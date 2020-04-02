@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "652460db-7545-4ab8-9ede-4aca7af985ee",
+            "Value": {
+                "id": "cd426938-39f3-44d0-aa55-3c4a177633d1",
+                "resourcePath": "sounds\\walkingSound\\walkingSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6b021ed2-5205-45a1-a03f-0103fb3586e3",
             "Value": {
                 "id": "315fe6ea-be29-43d5-b229-0f142dfb9d93",
@@ -316,6 +324,14 @@
                 "id": "0fdb95da-ccf6-4a01-b16a-3cc701375142",
                 "resourcePath": "views\/987b9637-4fa7-43b1-9085-27fc61e6a29a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a095ed1e-7fc7-4d0d-a2da-c7fe5656c418",
+            "Value": {
+                "id": "ae9c02d7-cca5-4624-95b4-2c871a6782a1",
+                "resourcePath": "sounds\\foodRespone\\foodRespone.yy",
+                "resourceType": "GMSound"
             }
         },
         {

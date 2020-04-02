@@ -1,3 +1,12 @@
+if vsp != 0 and !audio_is_playing(walkingSound) {
+	audio_play_sound(walkingSound, 1, false)	
+}
+
+if hsp != 0 and !audio_is_playing(walkingSound) {
+	audio_play_sound(walkingSound, 1, false)	
+}
+
+
 characterMovement();
 characterInteraction();
 

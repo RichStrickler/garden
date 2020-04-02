@@ -8,3 +8,7 @@ if (counter <= 0)
 	}
 	counter = 300;
 }
+
+if (counter <= 1) and !audio_is_playing(foodRespone) {
+	audio_play_sound(foodRespone, 1, false)	
+}
